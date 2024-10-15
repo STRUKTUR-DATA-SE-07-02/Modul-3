@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1729002388 source:d:\telkom\semester 3\std\03_atd\unguided\main.cpp
+	<iostream>
+
+1729003436 source:d:\telkom\semester 3\std\03_atd\unguided\task1.cpp
+	<iostream>
+	<string>
+
+1729003715 source:d:\telkom\semester 3\std\03_atd\unguided\task2.cpp
+	<iostream>
+	"pelajaran.h"
+
+1729003425 d:\telkom\semester 3\std\03_atd\unguided\pelajaran.h
+	<iostream>
+	<string>
+
+1729003704 source:d:\telkom\semester 3\std\03_atd\unguided\task3.cpp
+	<iostream>
+
