@@ -2,13 +2,13 @@
 #include <cstdlib>
 
 struct Mahasiswa {
-	char nim[10];
+	char nama[10];
 	int nilai1, nilai2;
 };
 
 void proses_input_mhs(Mahasiswa &m) {
 	std::cout << "Nama: ";
-	std::cin >> m.nim;
+	std::cin >> m.nama;
 	std::cout << "Masukkan nilai: ";
 	std::cin >> m.nilai1;
 	std::cout << "Masukkan nilai kedua: ";
