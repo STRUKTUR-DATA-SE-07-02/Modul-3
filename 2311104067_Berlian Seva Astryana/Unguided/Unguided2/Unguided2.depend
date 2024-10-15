@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1729006141 source:d:\semester 3\praktikum struktur data\pertemuan3\unguided\unguided2\main.cpp
+	<iostream>
+	"pelajaran.h"
+	<string>
+
+1729006027 d:\semester 3\praktikum struktur data\pertemuan3\unguided\unguided2\pelajaran.h
+	<string>
+	<iostream>
+
