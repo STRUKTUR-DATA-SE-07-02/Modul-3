@@ -1,8 +1,8 @@
+// Mengikuti kode modul
 #include "pelajaran.cxx"
 using namespace std;
 
-int main()
-{
+int main() {
     string namaPel = "Struktur Data";
     string kodePel = "STD";
 
