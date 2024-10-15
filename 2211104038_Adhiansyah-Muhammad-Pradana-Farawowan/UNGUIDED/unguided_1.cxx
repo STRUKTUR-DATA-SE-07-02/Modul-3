@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 struct MAHASISWA {
 	std::string nama;
@@ -9,7 +10,6 @@ struct MAHASISWA {
 	double nilai_akhir;
 };
 
-// Gunakan parameter tipe data MAHASISWA agar bisa langsung akses properti
 double hitung_nilai_akhir(MAHASISWA& m) {
 	return (0.3 * m.uts) + (0.4 * m.uas) + (0.3 * m.tugas);
 }
@@ -32,7 +32,7 @@ int main() {
 		}
 
 		std::cout << "Nama\t\t: ";
-		std::cin >> data_se[posisi].nama;
+		std::getline(std::cin, data_se[posisi].nama);
 
 		std::cout << "NIM\t\t: ";
 		std::cin >> data_se[posisi].nim;
@@ -48,7 +48,27 @@ int main() {
 
 		data_se[posisi].nilai_akhir = hitung_nilai_akhir(data_se[posisi]);
 
+		std::cout << std::endl;
+
+		std::cin.ignore();
+
 		posisi = posisi + 1;
+	}
+
+	std::cout << std::setw(18) << "Nama"
+			  << std::setw(12) << "NIM"
+			  << std::setw(10) << "UTS"
+			  << std::setw(10) << "UAS"
+			  << std::setw(10) << "Tugas"
+			  << std::setw(17) << "Nilai akhir" << std::endl;
+
+	for (int i = 0; i < jumlah_data; i = i + 1) {
+		std::cout << std::setw(18) << data_se[i].nama
+              	  << std::setw(12) << data_se[i].nim
+              	  << std::setw(10) << data_se[i].uts
+                  << std::setw(10) << data_se[i].uas
+                  << std::setw(10) << data_se[i].tugas 
+		  << std::setw(10) << data_se[i].nilai_akhir << std::endl;
 	}
 
 	return 0;
