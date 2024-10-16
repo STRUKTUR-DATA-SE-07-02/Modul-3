@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1729090324 source:d:\std_muhammad_ralfi_2211104054\03_abstract_data_type\guided\guided\pelajaran.cpp
+	"pelajaran.h"
+	<iostream>
+
+1729090399 d:\std_muhammad_ralfi_2211104054\03_abstract_data_type\guided\guided\pelajaran.h
+	<string>
+
